@@ -4,10 +4,6 @@
  */
 package pilhadinamica;
 
-/**
- *
- * @author FATEC ZONA LESTE
- */
 public class Pilha {
     int tamanho;
     No topo;
