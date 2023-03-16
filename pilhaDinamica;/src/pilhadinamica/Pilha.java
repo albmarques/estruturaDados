@@ -25,9 +25,14 @@ public class Pilha {
         topo = no;
         tamanho++;
     }
-    public void Desimpilhar(){
+    public Object Desimpilhar(){
+        if(estaVazia()){
+        return "pilha vazia";
+        }
+        Object info = topo.info;
         topo = topo.ponteiro;
         tamanho--;
+        return info;
     }
     
     Object topo(){
